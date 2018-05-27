@@ -7,6 +7,8 @@ We use a neural network to predict dementia stage, based on:
 - gender
 - education level
 
+Prediction of ~60% on the test set
+
 Only rationale for NN architecture was to keep it relatively simple. The learning rate of optimizer was lowered because it was initially learning too quickly (accuracy curve was too steep).
 
 Also, before doing the modeling bit, we performed a simple exploratory data analysis.
